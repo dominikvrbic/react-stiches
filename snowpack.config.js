@@ -8,14 +8,6 @@ module.exports = {
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
-    [
-      'snowpack-resolve-alias',
-      {
-        extension: ['.js', '.ts', '.jsx', '.tsx'],
-        devPath: 'src',
-        noWarning: false,
-      },
-    ],
   ],
   install: [
     /* ... */
@@ -33,8 +25,9 @@ module.exports = {
     /* ... */
   },
   alias: {
-    components: './src/components',
-    pages: './src/pages/index.ts',
-    assets: './src/assets',
+    components: './src/components/',
+    pages: './src/pages/',
+    assets: './src/assets/',
+    types: './src/types/',
   },
 };
