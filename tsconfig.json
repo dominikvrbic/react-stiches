@@ -11,7 +11,8 @@
       "components": ["./src/components"],
       "pages":["./src/pages"],
       "assets": ["./src/assets"],
-      "types":["./src/types/"]
+      "types":["./src/types/"],
+      "utils":["./src/utils/"]
     },
     /* noEmit - Snowpack builds (emits) files, not tsc. */
     "noEmit": true,

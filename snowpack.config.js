@@ -29,5 +29,6 @@ module.exports = {
     pages: './src/pages/',
     assets: './src/assets/',
     types: './src/types/',
+    utils: './src/utils/',
   },
 };
