@@ -3866,6 +3866,11 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+plugin-resolve-alias@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/plugin-resolve-alias/-/plugin-resolve-alias-1.0.4.tgz#08f1fb9744c5a8e9f1f39d073df196a0e3cc8476"
+  integrity sha512-xy9zTvOpMyL0bhUK6ZdG8X2o9igM11O0K2W1g7WH5WJZlYHRA7p7RAM7vv1jG88uR895AYPR41k9yqr/l3wg6w==
+
 portfinder@^1.0.28:
   version "1.0.28"
   resolved "https://registry.npmjs.org/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -4425,6 +4430,13 @@ slice-ansi@^4.0.0:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
+
+snowpack-resolve-alias@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/snowpack-resolve-alias/-/snowpack-resolve-alias-1.2.7.tgz#5e61ccf330f95d1c84a691d5337c48cd1002f3ec"
+  integrity sha512-/nK5LnY5/vU5g4GDR2AyB9xTj093k7VqQkY7xgQbD0zkDIPbHWnkRXuJf1aC5o0pGUsVQE8uJGPAJD7+Y/ij8g==
+  dependencies:
+    plugin-resolve-alias "^1.0.4"
 
 snowpack@^2.18.4:
   version "2.18.4"

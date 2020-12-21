@@ -12,7 +12,8 @@
     "@modulz/design-system": "^0.0.17",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "snowpack-resolve-alias": "^1.2.7"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
