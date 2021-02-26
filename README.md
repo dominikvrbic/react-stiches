@@ -24,7 +24,6 @@ To export a component you need to add a export in the index.ts file outside the 
 
 ## Packages that should be installed if needed
 
-1. axios (api calls)
+1. axios & react-query (api calls)
 2. dayjs (dates)
 3. react-use (custom hooks)
-4. @modulz/radix-icons (basic icons)
